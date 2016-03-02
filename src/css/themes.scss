@@ -28,19 +28,20 @@ $ps-theme-default: (
     scrollbar-x-rail-height: 9px,
     scrollbar-x-bottom: 0,
     scrollbar-x-height: 5px,
-    scrollbar-y-rail-width: 9px,
+    scrollbar-y-rail-width: 10px,
     scrollbar-y-rail-right: 0, // the bar itself, this is being overridden?
-    scrollbar-y-width: 5px,
-    scrollbar-y-right: 2px, //The draggy thing
+    scrollbar-y-width: 6px,
+    scrollbar-y-right: -1px, //The draggy thing
     rail-default-opacity: 1,
     rail-container-hover-opacity: 1,
     rail-hover-opacity: 1,
     //these variables make no sense!
     rail-bg: #f00, // Apparently, nothing
-    rail-hover-bg: #036, // the bar itself when you ARE hovering on it
-    bar-bg: #036, // the bar itself when you're NOT hovering on it
+    rail-hover-bg: #7f6157, // the bar itself when you ARE hovering on it
+    bar-bg: #7f6157, // the bar itself when you're NOT hovering on it
     bar-hover-bg: #4687ef, // the grabby thing when you ARE hovering on it
     bar-container-hover-bg: #ff9148, // the grabby thing when you're NOT hovering on it
+    rail-border: 3px solid #036,
     )
   ));
 }

@@ -2,8 +2,10 @@
   display: none;
   position: absolute; /* please don't change 'position' */
   border-radius: map_get($theme, border-radius);
+  border: map_get($theme, rail-border);
   opacity: map_get($theme, rail-default-opacity);
   transition: background-color .2s linear, opacity .2s linear;
+  box-sizing: border-box;
 }
 
 @mixin scrollbar-rail-hover($theme) {
